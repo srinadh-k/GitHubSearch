@@ -1,2 +1,2 @@
 # GitHubSearch
-This is a project includes GitHub users search and their Repositories search by using GitHub API V3
+This project includes GitHub user's search and their repositories search by using GitHub API V3
