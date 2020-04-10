@@ -19,4 +19,3 @@ Srinadh
 
 ![Webp net-resizeimage (1)](https://user-images.githubusercontent.com/28667119/79009677-b3df8c80-7b25-11ea-9e74-55a6b4dc27bc.png)   ![Webp net-resizeimage (3)](https://user-images.githubusercontent.com/28667119/79009704-c659c600-7b25-11ea-9d26-a9117fffa1a6.png).  ![Webp net-resizeimage (2)](https://user-images.githubusercontent.com/28667119/79009750-e38e9480-7b25-11ea-8d32-bbbd786b9b49.png)
 
-Thanks
