@@ -59,7 +59,7 @@ extension UIImageView {
     }
 }
 extension UILabel{
-    func loadPublicRepCount(fromURL urlString: String, completion: @escaping ((UILabel, UserDetailsModel) -> Void)){
+    func loadPublicRepCount(fromURL urlString: String, completion: ((UILabel, UserDetailsModel) -> Void)?){
         
         APIClient.shared.fetchData(urlStr: urlString) { [weak self ](result) in
             switch result{
@@ -76,7 +76,7 @@ extension UILabel{
                             self?.text = "Repo#: \(count)"
                         }
                         if let _label = self{
-                            completion(_label,usersDetails)
+                            completion?(_label,usersDetails)
                         }
                     }
                     

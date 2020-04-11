@@ -14,7 +14,7 @@ class UserCell: UITableViewCell {
     @IBOutlet weak var userRepCountLbl: UILabel?
     @IBOutlet weak var userBtn: UIButton?
     var btnClickHandler : ((UIButton) -> Void)?
-    var userDetails : ((UILabel, UserDetailsModel) -> Void) = {_,_ in }
+    var userDetails : ((UILabel, UserDetailsModel) -> Void)?
 
     override func awakeFromNib() {
         super.awakeFromNib()

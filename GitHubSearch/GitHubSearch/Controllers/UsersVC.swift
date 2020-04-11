@@ -80,7 +80,6 @@ class UsersVC: UITableViewController {
         if let cell = cell{
             cell.userBtn?.tag = indexPath.row
             cell.userRepCountLbl?.tag = indexPath.row
-            cell.prepareDisplay(user: searchResults[indexPath.row])
             cell.btnClickHandler = { [weak self]btn in
                 guard let strongSelf = self else { return }
                 let obj = strongSelf.searchResults[btn.tag]
@@ -91,6 +90,8 @@ class UsersVC: UITableViewController {
                     self?.searchResults[lbl.tag].userDetail = details
                 }
             }
+            cell.prepareDisplay(user: searchResults[indexPath.row])
+
             return cell
         }
         
